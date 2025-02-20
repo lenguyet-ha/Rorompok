@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Rorompok</title>
+  </head>
+  <body>
+    <!-- SECTION HOME -->
+    <section class="home">
+      <img src="./images/home/Background.svg" />
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <p>Roromp<span class="highlight">ok</span></p>
+          </div>
+          <div class="nav">
+            <ul class="nav-links">
+              <li><a>Beranda</a></li>
+              <li><a>Produk</a></li>
+              <li><a>Inspirasi</a></li>
+            </ul>
+          </div>
+          <div class="cart">
+            <img src="./images/home/shopping-bag-3-fill.svg" alt="cart" />
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-title">
+            <h1>Buat Suasana Rumah Senyaman Imajinasimu</h1>
+            <span class="vector"><img src="./images/home/Vector 1.svg" /></span>
+          </div>
+          <div class="content-inside">
+            <p>
+              Hidupkan suasana ruanganmu dengan berbagai produk dan koleksi
+              pilihan furniture tebaik! Temukan furniture idamanmu sekarang
+            </p>
+          </div>
+        </div>
+        <div class="search-wrapper">
+          <input
+            class="input"
+            type="text"
+            placeholder="cari furniture disini"
+          />
+          <img class="search-btn" src="./images/home/Button.png" alt="Search" />
+        </div>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="description">
+        <div class="description1">
+          <div class="icon-text">
+            <img src="./images/about us/Group 6.svg" alt="Icon" class="icon" />
+            <h5>Pengiriman Cepat dan Aman</h5>
+          </div>
+          <p>
+            Setiap pesanan yang kami kirim akan selalu datang tepat waktu.
+            Produk anda akan kami jaga sampai anda terima.
+          </p>
+        </div>
+        <div class="description2">
+          <div class="icon-text">
+            <img src="./images/about us/Group 8.svg" alt="Icon" class="icon" />
+            <h5>Design Kekinian Kualitas Terbaik</h5>
+          </div>
+          <p>
+            Produk yang tersedia dijamin kualitasnya. Dengan design yang
+            mengikuti perkembangan interior masa kini.
+          </p>
+        </div>
+        <div class="description3">
+          <div class="icon-text">
+            <img src="./images/about us/Group 7.svg" alt="Icon" class="icon" />
+            <h5>Produk Daur Ulang dan Ramah Lingkungan</h5>
+          </div>
+          <p>
+            Produk yang kami sediakan berasal dari produk daur ulang namun tetap
+            dengan kualitas terbaik.
+          </p>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="content-left">
+          <h1>Koleksi Furniture<br />Untuk Inspirasi Ruanganmu</h1>
+          <h4>Stocksund Inspiration Fullset</h4>
+          <p>
+            Berikut ini adalah sebuah desain ruang tv keluarga yang digunakan
+            untuk berkumpul dan bersantai. Sofa STOCKSUND menawarkan banyak
+            ruang sehingga setiap anggota keluarga dan tamu mendapatkan tempat
+            duduk. Sofa ini sangat nyaman dan dapat bertahan hingga
+            bertahun-tahun
+          </p>
+          <p class="price">Rp. 12.780.000</p>
+
+          <div class="product-info">
+            <img src="./images/about us/Group 15.svg" alt="Stocksund Sofa" />
+            <div class="info-text">
+              <h5>Stocksund Sofa</h5>
+              <p>Warna</p>
+              <div class="color-options">
+                <span class="color black">
+                  <img src="./images/about us/Group 11.svg"
+                /></span>
+                <span class="color orange">
+                  <img src="./images/about us/Group 10.svg"
+                /></span>
+                <span class="color green">
+                  <img src="./images/about us/Group 12.svg"
+                /></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-right">
+          <img
+            src="./images/about us/Image Detail.svg"
+            alt="Main Sofa"
+            class="main-image"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="product">
+      <div class="product-catalog">
+        <p>Produk Katalog</p>
+      </div>
+      <div class="category">
+        <li><a href="#">Meja</a></li>
+        <li><a href="#">Kursi</a></li>
+        <li><a href="#">Lemari</a></li>
+        <li><a href="#">Rak</a></li>
+        <li><a href="#">Lampu</a></li>
+        <li><a href="#">Lainnya</a></li>
+      </div>
+
+      <div class="product-list">
+        <div class="product-item">
+          <div class="items">
+            <div class="rectangle">
+              <div class="frame"><p>Diskon 10%</p></div>
+              <div class="table"><img src="./images/product/table1.svg" /></div>
+              <div class="colors">
+                <img src="./images/product/Group 32.svg" />
+              </div>
+            </div>
+            <!-- <div class="image"><img src="./images/product/table1.svg"/></div>
+            <div class="colors"><img src="./images/product/Group 32.svg"/></div> -->
+          </div>
+          <div class="item-label">
+            <p class="name">Arkelstrop</p>
+            <span 
+              ><p class="price-discount">Rp. 2.699.100</p>
+              <p class="price-before">Rp.9999.000</p></span
+            >
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="items">
+            <div class="rectangle">
+              <div class="frame green"><p>Produk Baru</p></div>
+              <div class="table"><img src="./images/product/image 2-2.svg" /></div>
+              <div class="colors">
+                <img src="./images/product/Group 32-2.svg" />
+              </div>
+            </div>
+        
+          </div>
+          <div class="item-label">
+            <p class="name">Lillasen</p>
+            <span 
+              ><p class="price-discount">Rp. 2.499.000</p>
+              <p class="price-before"></p></span
+            >
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="items">
+            <div class="rectangle">
+              <div class="frame green"><p>Produk Baru</p></div>
+              <div class="table"><img src="./images/product/image 2-3.svg" /></div>
+              <div class="colors">
+                <img src="./images/product/Group 32-3.svg" />
+              </div>
+            </div>
+
+          </div>
+          <div class="item-label">
+            <p class="name">Micke</p>
+            <span 
+              ><p class="price-discount">Rp. 999.000</p>
+              <p class="price-before"></p></span
+            >
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="items">
+            <div class="rectangle">
+              <div class="frame none"><p></p></div>
+        
+              <div class="table"><img src="./images/product/image 2-4.svg" /></div>
+              <div class="colors">
+                <img src="./images/product/Group 32-4.svg" />
+              </div>
+            </div>
+
+          </div>
+          <div class="item-label">
+            <p class="name">Tilslag</p>
+            <span 
+              ><p class="price-discount">Rp. 1.499.000</p>
+              <p class="price-before"></p></span
+            >
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="items">
+            <div class="rectangle">
+              <div class="frame none"><p>Diskon 10%</p></div>
+              <div class="table"><img src="./images/product/image 2-5.svg" /></div>
+              <div class="colors">
+                <img src="./images/product/Group 32-5.svg" />
+              </div>
+            </div>
+
+          </div>
+          <div class="item-label">
+            <p class="name">Lagkapten/Adils</p>
+            <span 
+              ><p class="price-discount">Rp. 849.000</p>
+              <p class="price-before"></p></span
+            >
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="items">
+            <div class="rectangle">
+              <div class="frame none"><p>Diskon 10%</p></div>
+              <div class="table"><img src="./images/product/image 2-6.svg" /></div>
+              <div class="colors">
+                <img src="./images/product/Group 32-6.svg" />
+              </div>
+            </div>
+
+          </div>
+          <div class="item-label">
+            <p class="name">Adils/Linmon</p>
+            <span 
+              ><p class="price-discount">Rp. 499.000</p>
+              <p class="price-before"></p></span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="button"> <p>Lihat Semua</p></div>
+    </section>
+    <section class="footer">
+      <div class="footer-content">
+        <img class="image-footer" src="./images/footer/Image.svg"/>
+        <div>
+          <p class="footer-title">Dapatkan Potongan Harga 30%
+            Untuk Pembelian Pertama</p>
+          <p class="footer-description">
+            Segera daftar untuk mendapatkan promo terbaik sekarang!
+          </p>
+          <button class="footer-button">Daftar Sekarang</button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+       
+          <p class="since">2020 © All Right Reserved</p>
+          <div class="footer-links">
+            <p>About Us</p>
+            <p>Contact</p>
+          </div>
+        
+    
+      </div>
+    </section>
+  </body>
+</html>
